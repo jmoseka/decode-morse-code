@@ -29,3 +29,10 @@ def decode_alphabet(alphabet)
     }
     morse_codes.key(alphabet)
 end
+
+def decode_word(word)
+  array = word.split
+  wordarray = []
+  array.each { |letter| wordarray.push(decode_alphabet(letter)) }
+  wordarray.join
+end

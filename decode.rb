@@ -36,3 +36,10 @@ def decode_word(word)
   array.each { |letter| wordarray.push(decode_alphabet(letter)) }
   wordarray.join
 end
+
+def decode_sentence(msg)
+  msgarray = msg.split('   ')
+  sentencearray = []
+  msgarray.each { |word| sentencearray.push(decode_word(word)) }
+  sentencearray.join(' ')
+end

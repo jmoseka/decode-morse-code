@@ -1,4 +1,4 @@
-def decode_alphabet(alphabet)
+def decode_char(char)
   morse_codes = {
    'A' => '.-',
    'B' => '-...',
@@ -27,14 +27,14 @@ def decode_alphabet(alphabet)
    'Y' => '-.--',
    'Z' => '--..'
   }
-  morse_codes.key(alphabet)
+  morse_codes.key(char)
 
 end
 
 def decode_word(word)
   array = word.split
   wordarray = []
-  array.each { |letter| wordarray.push(decode_alphabet(letter)) }
+  array.each { |letter| wordarray.push(decode_char(letter)) }
   wordarray.join
 end
 

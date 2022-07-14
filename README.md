@@ -1,6 +1,6 @@
 # Decode-Morse Code
 
-![image][(morse_code.png)]
+![image](morse_code.png)
 ## Getting Started
 This repository includes a decoder file that decrypts messages to Morse code.
 
@@ -47,4 +47,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/jmoseka/decode-morse-code/blob/decode-morse-code/LICENSE) is licensed.

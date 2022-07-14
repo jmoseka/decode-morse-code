@@ -43,3 +43,5 @@ def decode_sentence(msg)
   msgarray.each { |word| sentencearray.push(decode_word(word)) }
   sentencearray.join(' ')
 end
+
+puts decode_sentence('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
